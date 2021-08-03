@@ -1,0 +1,31 @@
+.menu{
+    list-style: none;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    z-index: 11;
+    cursor: pointer;
+    
+}
+.links{
+    float: left;
+    color:deeppink;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+        font-family: 'Racing Sans One', cursive;
+    
+}
+.links:hover{
+    background-image: linear-gradient(pink,blue)
+}
+body{
+    text-align: center;
+    background-image: repeating-linear-gradient(aqua,blue,pink,yellow,purple,orange)
+}
+img{
+    width: 500;
+    border-radius: 60;
+    border-color: blue;
+}
